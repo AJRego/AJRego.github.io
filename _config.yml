@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: es
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
@@ -21,35 +21,34 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: AJRego's Blog                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Systems engineer  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Personal blog that I will write when I remember
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
 github:
-  username: github_username             # change to your github username
+  username: AJRego           # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: AJ_Rego          # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Andrés Regino
+  email: rego.andre99@gmail.com          # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://www.linkedin.com/in/ajrego
+    - https://github.com/AJRego       # change to your github homepage
+    - https://twitter.com/AJ_Rego    # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
 google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
@@ -83,7 +82,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/39220047?s=400&u=0da0fb5e25b447d3df03bd04eeae5c6aef8e1110&v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
